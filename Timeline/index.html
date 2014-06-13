@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+   <title>ipt</title>
+   <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+   <meta name="description" content=""/>
+   <meta name="author" content="hongchun.li"/>
+   <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+   <link  href="themes/css/ipt.css" type="text/css" rel="stylesheet"/>
+   <link  href="themes/css/timeline.css" type="text/css" rel="stylesheet"/>
+   <style>
+    .container{
+      width : 1000px;
+      margin : 0px auto;
+      border : 1px solid #EEEEEE;
+    }
+   </style>
+ </head>
+ <body>
+<div class="container">
+
+</div>
+<div  class="align-center"><button id="loadingMore" class="btn btn-default" style='width:200px;'> 查看更多... </button></div>
+ </body>
+  <script src="javascript/jquery-1.10.2.js"></script>
+  <script src="javascript/TimeLine.js"></script>
+  <script type="text/javascript">
+
+    var timeline = new TimeLine({
+      renderTo : $(".container").get(0),
+      spacing : -60
+    });
+
+    timeline.addData([ 
+      {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'} , 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'} , 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'} , 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'}
+    ]);
+
+$("#loadingMore").click(function(){
+    timeline.addData([ 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'} , 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'} , 
+          {title : '<h2 style="margin:0px;"> 2012/01/28  <small>sdfsdfsdfsdfsdf</small></h2>' , content : '<img src="themes/images/history-pic-1.png"/><p>杨善洲同志1951年参加革命工作，历任施甸区、县主要领导，担任保山地委领导近20年，工作37年来，始终保持艰苦朴素的本色，廉洁奉公、全心为民，勤奋工作，为保山经济社会发展作出了突出贡献。</p>'}
+    ]);
+});
+
+  </script>
+</html>

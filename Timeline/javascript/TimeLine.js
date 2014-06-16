@@ -87,7 +87,7 @@
 			                  '<div class="timeline-item-index">' ,
 			                      '<div class="title">' + nodeData.title + '</div>',
 			                  '</div>' ,
-			                  '<div class="timeline-item-content">' + nodeData.content + '</div>' ,
+			                  '<div class="timeline-item-box">' + nodeData.content + '</div>' ,
 			                  '<div class="timeline-item-node"></div>' ,
 		           		 	'</div>'
 		           		 ].join("");

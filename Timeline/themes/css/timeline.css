@@ -15,7 +15,7 @@
 
 .timeline-body {
   position: relative;
-  width: 900px;
+  width: 800px;
   margin: 0px auto;
 }
 
@@ -33,23 +33,23 @@
 	left : 0px;
 	height: 40px;
 	line-height: 40px;
-	width: 550px;
-	background: url("../images/line.png") 0px 20px repeat-x;
-
+	width: 400px;
 }
 
 .timeline-item-index .title{
 	background: white;
-	margin-right : 140px;
+	margin-right : 10px;
 	padding : 10px;
 }
 
-.timeline-item-content {
+.timeline-item-box {
 	float: right;
 	top : 0px;
 	right: 0px;
 	height: 320px;
-	width: 350px;
+	width: 400px;
+	padding-left : 80px;
+	background: url("../images/line.png") 0px 100px repeat-x;	
 }
 
 .timeline-item-node{
@@ -68,10 +68,12 @@
 }
 
 .timeline-item-inverse .timeline-item-index .title{
-	margin-left: 140px;
+	margin-left: 10px;
 	margin-right: 0px;
 }
 
-.timeline-item-inverse .timeline-item-content{
+.timeline-item-inverse .timeline-item-box{
 	float: left;
+	padding-right : 80px;
+	padding-left : 0px;
 }
